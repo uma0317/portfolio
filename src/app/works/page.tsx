@@ -15,8 +15,11 @@ export default function Home() {
                 </div>
 
                 <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+                    <Work title='Portfolio Site' tags={["Next.js", "React", "Tailwind CSS", "TypeScript", "Cloudflare Pages"]} iconType='Github' url="https://github.com/uma0317/portfolio">
+                        このサイトです。
+                    </Work>
                     <Work title='neos' tags={["React", "TypeScript", "VScode"]} imagePath='/works/neos.png' alt="neos">
-                        感情曲線と脚本を簡単に記述するためのツール。
+                        感情曲線と脚本を簡単に記述するためのvscode拡張機能。Webview APIを使ってYAMLファイルからプレビュー画面を生成します。
                     </Work>
                     <Work title='Neoki Beat' tags={["UE5", "MIDI"]} imagePath='/works/sound_game.png' alt="sound_game">
                         自作の音ゲー。MIDI で譜面データを作成し、UE5上で読み込んでいます。
@@ -42,7 +45,7 @@ export default function Home() {
                     <Work title='Chapter Generator' tags={["Lua", "Davinci Resolve"]} imagePath='/works/chapter_generator.png' alt="chapter_generator">
                         Davinci Resolve でタイムラインマーカーの位置を元に Youtube のチャプター文字列を生成するツール。
                     </Work>
-                    <Work title='BTC Indicators Dashboard' tags={["Vue.js"]} imagePath='/works/btc-dashboard.png' alt="btc dashboard" url="https://jetbtc.netlify.app">
+                    <Work title='BTC Indicators Dashboard' tags={["Vue.js", "Nuxt.js"]} imagePath='/works/btc-dashboard.png' alt="btc dashboard" url="https://jetbtc.netlify.app">
                         仮想通貨の指標をまとめて監視できるツール
                     </Work>
                     <Work title='SmokeTimer' tags={["Electron", "Vue.js"]} iconType='Github' url="https://github.com/uma0317/SmokeTimer">
