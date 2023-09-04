@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { Noto_Sans_JP } from 'next/font/google'
 import Header from './components/header'
 const notojp = Noto_Sans_JP({
-  weight: ["400", "500"],
+  weight: ["300", "400"],
   subsets: ["latin"],
   display: "swap",
 });

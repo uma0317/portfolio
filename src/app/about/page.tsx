@@ -31,18 +31,18 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                <div className="-ml-6 -mt-6 p-6 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                     <Image
                         src="/works/vj.jpg"
-                        width={320}
-                        height={320}
+                        width={400}
+                        height={400}
                         alt="Picture of the author"
                     />
                 </div>
                 <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div className="lg:pr-4">
                         <div className="max-w-xl text-base leading-7 text-white-700 lg:max-w-lg">
-                            <h2 className="mt-16 text-2xl font-bold tracking-tight text-white-900">職歴</h2>
+                            <h2 className="mt-4 text-2xl font-bold tracking-tight text-white-900">職歴</h2>
                             <ol className="relative border-l border-gray-200 dark:border-gray-700">
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -56,24 +56,24 @@ export default function Home() {
                                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">株式会社コロプラ インターン</h3>
                                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">サーバーサイド、データベース開発を経験。</p>
                                 </li>
-                                <li className="ml-4">
+                                <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sep. 2018 1 month</time>
                                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">楽天 インターン</h3>
                                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">Angular.jsを使用したフロントエンド開発に従事し、新しい機能の追加を行いました。</p>
                                 </li>
-                                <li className="ml-4">
+                                <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar. 2020</time>
-                                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">国立北見工業大学 情報システム工学科 卒業</h3>
+                                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">北見工業大学 情報システム工学科 卒業</h3>
                                 </li>
-                                <li className="ml-4">
+                                <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Apr. 2020 ~ Oct. 2022</time>
                                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Amazon Web Services Japan クラウドサポートエンジニア</h3>
                                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">Amazon S3 等のストレージサービスを中心としたテクニカルサポートに従事しました。</p>
                                 </li>
-                                <li className="ml-4">
+                                <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct. 2022 ~</time>
                                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">無職</h3>
