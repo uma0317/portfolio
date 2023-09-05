@@ -33,7 +33,7 @@ export default function Home() {
                 </div>
                 <div className="-ml-6 -mt-6 p-6 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
                     <Image
-                        src="/works/vj.jpg"
+                        src="/works/vj.webp"
                         width={400}
                         height={400}
                         alt="Picture of the author"
