@@ -20,7 +20,7 @@ export default function Home() {
     }
 
     return (
-        <div className="bg-black py-24 sm:py-32">
+        <div className="py-24 sm:py-32">
             <ImageModal imagePath={values.imagePath} open={values.open} onClick={close} />
             <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
                 <div className="max-w-2xl">
