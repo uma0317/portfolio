@@ -35,6 +35,9 @@ export default function Home() {
                     <Work title='Portfolio Site' tags={["Next.js", "React", "Tailwind CSS", "TypeScript", "Cloudflare Pages"]} iconType='Github' url="https://github.com/uma0317/portfolio">
                         このサイトです。
                     </Work>
+                    <Work title='tabmi' tags={["Dart", "Flutter", "Riverpod"]} iconType='Github' url="https://github.com/uma0317/portfolio">
+                        ギターTab譜を制作するためのモバイルアプリです。
+                    </Work>
                     <Work title='neos' tags={["React", "TypeScript", "VScode"]} imagePath='/works/neos.webp' alt="neos" onClick={clickImage}>
                         感情曲線と脚本を簡単に記述するためのvscode拡張機能。Webview APIを使ってYAMLファイルからプレビュー画面を生成します。
                     </Work>
