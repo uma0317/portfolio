@@ -1,7 +1,7 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Noto_Sans_JP } from 'next/font/google'
-import Header from './components/header'
+import "./globals.css";
+import type { Metadata } from "next";
+import { Noto_Sans_JP } from "next/font/google";
+import Header from "./components/header";
 const notojp = Noto_Sans_JP({
   weight: ["300", "400"],
   subsets: ["latin"],
@@ -9,23 +9,25 @@ const notojp = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: 'About uma0317',
-  description: 'uma0317\'s Portfolio site',
-}
+  title: "About yumazak",
+  description: "yumazak's Portfolio site",
+};
 
-export const runtime = 'edge' // 'nodejs' (default) | 'edge'
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return <>
-    <html lang="en">
-      <body className={notojp.className}>
-        <Header />
-        {children}
-      </body>
-    </html>
-  </>
+  return (
+    <>
+      <html lang="en">
+        <body className={notojp.className}>
+          <Header />
+          {children}
+        </body>
+      </html>
+    </>
+  );
 }
