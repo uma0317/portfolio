@@ -6,7 +6,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
 import ImageModal from "../components/imageModal";
 
-export default function Home() {
+export default function Works() {
   const [values, setOpen] = useState({
     imagePath: "",
     open: false,

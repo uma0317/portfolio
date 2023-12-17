@@ -1,11 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Noto_Sans_JP } from "next/font/google";
+import { Inter as FontSans } from "next/font/google";
 import Header from "./components/header";
-const notojp = Noto_Sans_JP({
-  weight: ["300", "400"],
+
+export const fontSans = FontSans({
   subsets: ["latin"],
-  display: "swap",
+  variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description: "yumazak's Portfolio site",
 };
 
-export const runtime = "edge"; // 'nodejs' (default) | 'edge'
+// export const runtime = "edge"; // 'nodejs' (default) | 'edge'
 
 export default function RootLayout({
   children,
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <>
       <html lang="en">
-        <body className={notojp.className}>
+        <body className={fontSans.className}>
           <Header />
           {children}
         </body>
